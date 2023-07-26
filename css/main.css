@@ -1,0 +1,443 @@
+ @font-face {
+  font-family: '이쁜폰트';
+  src: url(../font/NanumSquareR.woff2);
+ }
+
+div,input,textarea {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'dotum';
+}
+
+p,h4,h3,h2,h1,span {
+  /* transform: rotate(0.03deg); */
+}
+
+td,th {
+  /* border: 1px solid black; */
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.profile {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  text-align: center; 
+  font-size: 16px;
+}
+
+.content {
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  background-color: cadetblue;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  box-shadow: 5px 5px black;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: aquamarine;
+}
+
+.left-menu {
+  width: 20%;
+  height: 400px;
+  background: cornflowerblue;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.right {
+  width: 80%;
+  height: 400px;
+  background: coral;
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: grey;
+}
+
+.left-content {
+  width: 80%;
+  height: 200px;
+  float: left;
+}
+
+.right-img {
+  width: 20%;
+  height: 200px;;
+  float: left;
+}
+
+.blog-profile {
+  width: 50px;
+  display: block;
+  float: left;
+}
+
+.blog-name {
+  float: left;
+}
+
+.main-content {
+  clear: both;
+  margin: 5px;
+  padding: 5px;
+}
+
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.navbar a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/shoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  text-align: center;
+  position: relative;
+}
+
+.main-title {
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.main-content {
+  color: white;
+}
+
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 150px;
+}
+
+.explain-box {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  background: #eee;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: -40px;
+}
+
+.form-background {
+  background: black;
+  padding: 30px;
+}
+
+.form-white {
+  background: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-long {
+  height: 180px;
+}
+
+.yellow-button {
+  padding: 10px;
+  width: 130px;
+  background: coral;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-top: -30px;
+}
+
+.cart-background {
+  width: 100%;
+  background: #c2d3de;
+  padding: 30px;
+}
+
+.cart-name {
+  color: midnightblue;
+  font-size: 25px;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.cart-table td,.cart-table th {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+  color: #c2d3de;
+}
+
+.cart-table th:nth-child(2) {
+  width: 400px;
+}
+
+.blue-button {
+  padding: 20px;
+  background: midnightblue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.blue-button:hover {
+  background: chocolate;
+}
+
+.blue-button:focus {
+  background: grey;
+}
+
+.blue-button:active {
+  background: brown;
+  border: 2px solid black;
+}
+
+.f-small {
+  font-size: 12px;
+}
+
+.f-mid {
+  font-size: 16px;
+}
+
+.f-lg {
+  font-size: 20px;
+}
+
+.main-btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-blue {
+  background: blue;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  background: gray;
+  margin: 5px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.test {
+  width: 10rem;
+  height: 50px;
+  background: gray;
+}
+
+.product-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-container div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.product-container i {
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 20px;
+}
+
+.product-container::after {
+  content: '';
+  display: block;
+  clear: both;
+  float: none;
+}
+
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.shop-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: all 1s;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlay-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlay-wrap:hover .overlay-black {
+  margin-top: 50%;
+}
+
+.overlay-black {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  margin-top: 100%;
+  transition: all 1s;
+}
+
+.pseudo::first-letter {
+  color: red;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+  .product-container div {
+    width: 50%;
+  }
+  .product-container {
+    max-width:600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 20px;
+  }
+  .product-container div {
+    width: 100%;
+  }
+}
+
